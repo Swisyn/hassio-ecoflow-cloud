@@ -1500,5 +1500,48 @@ Once installed, use Add Integration -> Ecoflow Cloud.
 
 </p></details>
 
+<details><summary> POWEROCEAN <i>(sensors: 22, switches: 0, sliders: 0, selects: 0)</i> </summary>
+<p>
+
+*Sensors*
+- mpptPwr (Solar Power)
+- bpSoc (Battery SOC)
+- bpPwr (Battery Power)
+- sysLoadPwr (System Load Power)
+- sysGridPwr (System Grid Power)
+- mpptPv1.pwr (String 1 Power)
+- mpptPv1.amp (String 1 Current)
+- mpptPv1.vol (String 1 Voltage)
+- mpptPv2.pwr (String 2 Power)
+- mpptPv2.amp (String 2 Current)
+- mpptPv2.vol (String 2 Voltage)
+- pcsAPhase.vol (Phase A Voltage)
+- pcsAPhase.amp (Phase A Current)
+- pcsAPhase.actPwr (Phase A Active Power)
+- pcsAPhase.reactPwr (Phase A Reactive Power)
+- pcsAPhase.apparentPwr (Phase A Apparent Power)
+- pcsBPhase.vol (Phase B Voltage)
+- pcsBPhase.amp (Phase B Current)
+- pcsBPhase.actPwr (Phase B Active Power)
+- pcsBPhase.reactPwr (Phase B Reactive Power)
+- pcsBPhase.apparentPwr (Phase B Apparent Power)
+- pcsCPhase.vol (Phase C Voltage)
+- pcsCPhase.amp (Phase C Current)
+- pcsCPhase.actPwr (Phase C Active Power)
+- pcsCPhase.reactPwr (Phase C Reactive Power)
+- pcsCPhase.apparentPwr (Phase C Apparent Power)
+- Status
+
+*Switches*
+_None_
+
+*Sliders (numbers)*
+_None_
+
+*Selects*
+_None_
+
+</p></details>
+
 ## How to
 - [Add/update device](docs/integration.md)

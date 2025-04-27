@@ -27,6 +27,7 @@ from .public import (
     powerstream as public_powerstream,
     delta_pro_3 as public_delta_pro_3,
     powerkit as public_powerkit,
+    powerocean as public_powerocean,
 )
 from ..devices import BaseDevice, DiagnosticDevice
 
@@ -64,6 +65,7 @@ device_by_product: OrderedDict[str, Type[BaseDevice]] = OrderedDict[
         "PowerStream": public_powerstream.PowerStream,
         "Delta Pro 3": public_delta_pro_3.DeltaPro3,
         "Power Kits": public_powerkit.PowerKit,
+        "PowerOcean": public_powerocean.PowerOcean,
         "Diagnostic": DiagnosticDevice,
     }
 )
